@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/yuriipol/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/yuriipol/goit-react-hw-01-components/static/js/main.7fd4c8a3.js",
+    "main.js": "/yuriipol/goit-react-hw-01-components/static/js/main.f903f069.js",
     "index.html": "/yuriipol/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/yuriipol/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.7fd4c8a3.js.map": "/yuriipol/goit-react-hw-01-components/static/js/main.7fd4c8a3.js.map"
+    "main.f903f069.js.map": "/yuriipol/goit-react-hw-01-components/static/js/main.f903f069.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.7fd4c8a3.js"
+    "static/js/main.f903f069.js"
   ]
 }
