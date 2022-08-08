@@ -4,13 +4,15 @@ import user from './user.json'
 export const App = () => {
   return (
     <div>
-      <Profile
-        avatar={user[0].avatar}
-        username={user[0].username}
-        tag={user[0].tag}
-        location={user[0].location}
-        stats={user[0].stats}
+      {user.map(profile => (
+        <Profile
+        avatar={profile.avatar}
+        username={profile.username}
+        tag={profile.tag}
+        location={profile.location}
+        stats={profile.stats}
       />
+      ))}
     </div>
   );
 };
