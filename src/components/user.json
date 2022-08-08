@@ -1,0 +1,23 @@
+[{
+  "username": "Jacques Gluke",
+  "tag": "jgluke",
+  "location": "Ocho Rios, Jamaica",
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "stats": {
+    "followers": 5603,
+    "views": 4827,
+    "likes": 1308
+  }
+},
+{
+  "username": "Yurii Polupan",
+  "tag": "Bomba",
+  "location": "Ukraine, Kharkov",
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "stats": {
+    "followers": 1121,
+    "views": 4822227,
+    "likes": 131108
+  }
+}
+]
