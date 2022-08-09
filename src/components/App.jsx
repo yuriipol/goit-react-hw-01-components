@@ -1,18 +1,19 @@
-import Profile from "./painting";
-import user from './user.json'
+import Profile from './profile';
+import StatsData from './statsList';
+import user from './user.json';
+import data from './data.json';
 
 export const App = () => {
   return (
     <div>
-      {user.map(profile => (
-        <Profile
-        avatar={profile.avatar}
-        username={profile.username}
-        tag={profile.tag}
-        location={profile.location}
-        stats={profile.stats}
+      <Profile
+        avatar={user.avatar}
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        stats={user.stats}
       />
-      ))}
+      <StatsData title="Upload stats" stats={data} />
     </div>
   );
 };
