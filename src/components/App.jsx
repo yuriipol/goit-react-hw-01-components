@@ -2,7 +2,7 @@ import Profile from './Profile/Profile';
 import StatsData from './Statistics';
 import FriendList from './FriendList';
 import TransactionHistory from './TransactionHistory';
-import user from './data/user.json';
+import user from './Data/user.json';
 import data from './data.json';
 import friends from './friends.json';
 import transactions from './transactions.json';
