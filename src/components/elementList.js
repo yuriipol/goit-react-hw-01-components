@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 export default function ElementStats({ id, label, percentage }) {
   return (
-    <li class="item" key={id}>
-      <span class="label">{label}</span>
-      <span class="percentage">{percentage}</span>
+    <li className="item" key={id}>
+      <span className="label">{label}</span>
+      <span className="percentage">{percentage}</span>
     </li>
   );
 }

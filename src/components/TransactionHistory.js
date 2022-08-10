@@ -2,7 +2,7 @@ import TransactionTr from './TransactionTr';
 import PropTypes from 'prop-types';
 export default function TransactionHistory({ items }) {
   return (
-    <table class="transaction-history">
+    <table className="transaction-history">
       <thead>
         <tr>
           <th>Type</th>

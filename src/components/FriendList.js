@@ -2,7 +2,7 @@ import FriendsListItem from './FriendListItem';
 import PropTypes from 'prop-types';
 export default function FriendList({ friends }) {
   return (
-    <ul class="friend-list">
+    <ul className="friend-list">
       {friends.map(friend => (
         <FriendsListItem
           key={friend.id}

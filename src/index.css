@@ -1,5 +1,4 @@
 @import-normalize; /* bring in normalize.css styles */
-@import './css/profile.css';
 
 body {
   margin: 0;
