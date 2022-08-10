@@ -1,4 +1,4 @@
-import TransactionTr from './TransactionTr';
+import TransactionItem from './TransactionItem';
 import PropTypes from 'prop-types';
 import style from './Transaction.module.css';
 export default function TransactionHistory({ items }) {
@@ -14,7 +14,7 @@ export default function TransactionHistory({ items }) {
 
       <tbody>
         {items.map(item => (
-          <TransactionTr
+          <TransactionItem
             key={item.id}
             type={item.type}
             amount={item.amount}
